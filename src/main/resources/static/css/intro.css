@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+/* 본문 */
+article
+{
+	width: 80%;
+	margin: 20px auto;
+}
+
+.intro_title
+{
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.introWrap
+{
+	display: inline-block;
+}
+
+.introWrap img {
+	width: 100%;
+	height: 400px;
+}
+
+/* 박물관 안내 */
+.greeting_title {
+	display: block;
+	padding: 30px 0;
+	width: 75%;
+	float: right;
+}
+
+.greeting_title .intro_title2
+{
+	font-size: 38px;
+	font-weight: normal;
+}
+.greeting_title .intro_title2>br
+{
+	display: none;
+}
+
+.greeting_title .intro_title2>span
+{
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.greeting_main {
+	font-size: 120%;
+	width: 75%;
+	float: right;
+	padding: 30px 0;
+}
+
+.box_point
+{
+	color: #970119;
+	line-height: 32px;
+}
+
+.intro_sub_title
+{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 32px;
+	padding-bottom: 18px;
+}
+
+.intro_sub_desc 
+{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #4D4D4D;
+}
+
+
+/* 시설 소개 */
+.overview_imgbox
+{
+	position: relative;
+}
+
+.overview_imgbox img
+{
+	display: block;
+}
+
+.overview_summary
+{
+	position: absolute;
+	width: 500px;
+	padding: 28px 0 10px 20px;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+}
+
+.overview_summary ul>li 
+{
+	width: 50%;
+	margin-bottom: 13px;
+	float: left;
+	padding: 5px 0 5px 0;
+	display: table;
+}
+
+.overview_summary ul>li>strong {
+	display: table-cell;
+	width: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.overview_summary ul li p {
+	display: table-cell;
+	color: #666666;
+	font-size: 16px;
+}
+
+.overview_main table
+{
+	padding: 40px 0;
+}
+
+
+.overview_main table th {
+	width: 30%;
+	padding: 30px 10px 0 0 ;
+	font-size: 20px;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.overview_main table td {
+	width: 70%;
+	padding: 30px 0 0 20px;
+	color: #666666;
+}
+
+/* 관람 안내 */
+.guide_imgbox
+{
+	width: 100%;
+}
+
+.guide_imgbox img
+{
+	width: 100%;
+}
+
+.guide_content
+{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.display-content-area>li
+{
+	width: 69%;
+	float: left;
+	border-top: 1px solid black;
+}
+.display-content
+{
+	display: table;
+	width: 100%;
+}
+
+.display-content>li:first-child
+{
+	width: 220px;
+}
+
+.display-content li
+{
+	display: table-cell;
+	text-align: left;
+	padding: 30px 0;
+	border-bottom: 1px solid #555555;
+}
+
+.display-content li h3
+{
+	font-size: 22px;
+	color: black;
+}
+
+.str-display
+{
+	display: block;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.str-display span
+{
+	color: #555555;
+}
+
+.display-content-box
+{
+	display: table;
+	margin-bottom: 25px;
+}
+
+.display-fale-box
+{
+	display: table;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.fale-box
+{
+	display: table-cell;
+	width: 80px;
+}
+
+.fale-box>span
+{
+	display: table-cell;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	background: #0F013C;
+	color: #FFFFFF;
+	line-height: 50px;
+	font-size: 18px;
+	vertical-align: top;
+}
+
+.fale-box>span.flae-box-c
+{
+	background: #900118;
+}
+
+.fale-box-info
+{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px 0 0 10px;
+}
+
+.display-content-area>li:last-child
+{
+	float: right;
+    width: 30%;
+    border: none;
+}
+
+.display-side-box
+{
+	padding: 10px;
+}
+
+.display-side-box>h4
+{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0 0 15px 10px;
+}
+
+.display-side li
+{
+	list-style-type: disc;
+}
+
+.display-side>li
+{
+	margin-bottom: 24px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.display-side>li>span
+{
+	padding-left: 10px;
+    display: table-cell;
+    font-size: 16px;
+    color: #666666;
+    vertical-align: middle;
+}
+
+.display-side>li>span.red-display 
+{
+    color: #970119;
+}
+
+/* 오시는 길 */
+#map_subMenu
+{
+	display: inline-block;
+}
+
+#map_subMenu ul li
+{
+	float: left;
+	height: 40px;
+	margin: 0 10px;
+	border-bottom: 2px solid #808080;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#map_subMenu a
+{
+	color: #808080;
+}
+
+.map_box
+{
+	width: 100%;
+}
+
+.map_box .map
+{
+	width: 100%;
+}
+
+.map_box .way
+{
+	width: 100%;
+}

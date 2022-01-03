@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 서브 메뉴 */
+#mypage_subMenu
+{
+	float: left;
+	width: 15%;
+	min-width: 150px;
+	padding: 10px;
+}
+
+#mypage_subMenu ul li
+{
+	margin: 10px;
+	list-style: disc;
+	font-weight: bold;
+}
+
+#mypage_subMenu ul li a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#mypage_subMenu ul li a:hover
+{
+	border-bottom: 1px solid #000;
+}
+
+#mypage_subMenu ul li ul li
+{
+	list-style: none;
+	font-weight: normal;
+}
+
+/* */
+article
+{
+	float: right;
+	width: 80%;
+}

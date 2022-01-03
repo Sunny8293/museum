@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+.subTitle
+{
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+#exhibition_subMenu
+{
+	display: inline-block;
+}
+
+#exhibition_subMenu ul li
+{
+	float: left;
+	height: 40px;
+	margin: 0 10px;
+	border-bottom: 2px solid #808080;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+#exhibition_subMenu a
+{
+	color: #808080;
+}
+
+
+/* 특별 전시 리스트 */
+.content
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.content ul
+{
+	list-style-type: none;
+	margin: 1em;
+}
+
+.card
+{
+	display: list-item;
+	left: 10px;
+	top: 0px;
+	width: 330px;
+	margin: 10px;
+	float: left;
+}
+
+.card a
+{
+	text-decoration: none;
+}
+
+.card img
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.card .exhbntitle a
+{
+	display: block;
+	margin-bottom: 15px;
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 32px;
+}
+
+.card .exhbnInfo
+{
+	margin-top: 25px;
+}
+
+.card ul
+{
+	margin: 20px 0 0 0;
+}
+
+.card ul li
+{
+	padding: 5px 0 5px 0;
+}
+
+.card ul strong
+{
+	display: table-cell;
+	width: 70px;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.card ul p
+{
+	display: table-cell;
+	width: calc(100%-70px);
+	color: black;
+	font-size: 16px;
+}
+
+/* 특별 전시 상세 */
+.content_detail
+{
+	margin: 15px 20px;	
+}
+
+hr
+{
+	border: 1px solid black;
+}
+
+.content_img img
+{
+	width: 100%;
+}
+
+.content_view
+{
+	margin: 30px 0;
+	width: 100%
+}
+.content_info
+{
+	float: left;
+	width: 35%;
+	margin: 0 0 30px 0;
+}
+
+.content_desc
+{
+	float: left;
+	width: 60%;
+	margin: 0 20px;
+}
+
+.content_info>strong
+{
+	font-size: 30px;
+	font-weight: bold;
+	
+	color: black;
+}
+
+.content_info ul, .content_info li
+{
+	list-style-type: none;
+}
+
+.content_info ul
+{
+	margin: 20px 0 0 0;
+}
+
+.content_info ul li
+{
+	padding: 5px 0 5px 0;
+}
+
+.content_info ul strong
+{
+	display: table-cell;
+	width: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.content_info ul p
+{
+	display: table-cell;
+	width: calc(100%-150px);
+	color: black;
+	font-size: 16px;
+}
+
+#btnList
+{
+	height: 40px;
+	background-color: white;
+	color: black;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	margin: 20px 20px 0 0;
+	border-bottom: 2px solid #000;
+}
+
+#btnList:hover
+{
+	color: blue;
+}
+
+/* 상설 전시 */
+.permanentWrap
+{
+	width: 100%;
+}
+
+.permanentWrap p
+{
+	font-size:150%;
+	margin: 50px 0;
+}
+
+.permanentWrap>img
+{
+	width: 100%;
+}
+
+.permanentImg
+{
+	width:100%; 
+}
+
+.permanentImg img
+{
+	width: calc(96% / 3);
+	padding: 5px;
+}
+
+.permanentImg .img_center
+{
+	padding-left: calc(96% / 3 + 20px);
+}

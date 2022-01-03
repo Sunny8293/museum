@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.subTitle
+{
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+/* 프로그램 리스트 */
+.table_program
+{
+	width: 100%;
+	margin: 40px 0;
+}
+
+.table_program td
+{
+	padding: 5px 10px;
+}
+
+.table_program .table_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.table_program .table_title a:hover
+{
+	text-decoration: underline;
+}
+
+/* 상세 */
+.content_detail 
+{
+	width: 100%;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+.content_img
+{
+	width: 25%;
+	float: left;
+	
+}
+
+.content_view 
+{
+	width: calc(70% - 20px);
+	margin: 10px;
+	float: left;
+}
+
+.content_info 
+{
+	width: 100%;
+	margin: 0 0 30px 0;
+	display: inline-block;
+}
+
+.content_info ul 
+{
+	float: left;
+}
+
+.content_info ul li 
+{
+	list-style-type: none;
+	padding: 5px 0;
+}
+
+.content_info ul strong 
+{
+	display: table-cell;
+	width: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content_info ul p 
+{
+	display: table-cell;
+	width: calc(100% -150px);
+	color: black;
+	font-size: 16px;
+}
+
+.content_info .status 
+{
+	padding: 5px;
+	color: #3f0b9f;
+	border: 1px solid #3f0b9f;
+}
+
+.content_info .title 
+{
+	padding: 15px 0;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content_desc 
+{
+	margin: 10px 0;
+}

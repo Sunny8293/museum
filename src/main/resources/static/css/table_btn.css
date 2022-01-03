@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* 본문 */
+article
+{
+	width: 80%;
+	margin: 20px auto;
+}
+
+.subTitle
+{
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.menu_title
+{
+	color: gray;
+}
+
+/* 버튼 우측 정렬 */
+.box_btn
+{
+	float: right;
+}
+
+/* 버튼 */
+.btn
+{
+	height: 30px;
+	background-color: white;
+	color: black;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 5px;
+	border-bottom: 2px solid #000;
+}
+
+.btn:hover
+{
+	color: blue;
+}
+
+/* table 내부 기능 버튼 */
+.btn_table
+{
+	height: 30px;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 0 10px;
+}
+
+.btn_table:hover
+{
+	background-color: #E6E6E6;
+}
+
+/* 리스트형 table */
+.table_list
+{
+	width: 100%;
+	margin: 40px 0;
+	border-collapse: collapse;
+	border-top: 1px solid black;
+}
+
+.table_list tr
+{
+	border-bottom: 1px solid #DCDCDC;
+	height: 40px;
+}
+
+.table_list th
+{
+	padding: 10px 0;
+}
+
+.table_list td
+{
+	 text-align: center;
+	 padding: 5px 0;
+}
+
+.table_list a:hover
+{
+	text-decoration: underline;
+}
+
+/* 등록 수정 폼*/
+.table_form
+{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.table_form th
+{
+	background: #E6E6E6;
+	padding: 5px 0;
+}
+
+.table_form td
+{
+	height: 35px;
+	border: 1px solid gray;
+}
+
+.table_form td input
+{
+	height: 100%;
+	border: none;
+	padding: 0 10px; 
+}
+
+
+.table_form td input[type="text"]
+{
+	width: calc(100% - 20px);
+	display: inline-block;
+}
+
+.table_form td input[type="email"]
+{
+	width: calc(100% - 20px);
+	display: inline-block;
+}
+
+.table_form td input[type="text"].input_text
+{
+	width: 80%;
+}
+
+.table_form td input[type="radio"]
+{
+	margin: -2px 5px 0 10px;
+    vertical-align: middle;
+}
+
+.table_form td input[type="file"]
+{
+	margin: 5px 0 0 0;
+    vertical-align: middle;
+}
+
+.table_form td textarea
+{
+	width: calc(100% - 30px);
+	border: none;
+	padding: 5px 10px;
+}
+
+/* 상세 내용 폼 */
+.table_detail
+{
+	width: 100%;
+	margin: 20px 0;
+	border-collapse: collapse;
+}
+
+.table_detail th
+{
+	text-align: left;
+	padding: 10px 10px;
+}
+
+.table_detail td
+{
+	height: 30px;
+	padding: 10px 10px;
+	border: none;
+/* 	border: 1px solid black; */
+}
+
+.table_detail .table_title
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.table_detail .tr_underline
+{
+	border-bottom: 1px solid black;
+}
+
+/* 확인 폼 */
+.table_view
+{
+	width: 100%;
+	margin: 20px 0;
+	border-collapse: collapse;
+}
+
+.table_view tr
+{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.table_view th
+{
+	background: #E6E6E6;
+	padding: 5px 0;
+}
+
+.table_view td
+{
+	height: 35px;
+	padding: 0 10px;
+}

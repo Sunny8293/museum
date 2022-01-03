@@ -1,0 +1,12 @@
+
+table{ position:relative; margin:auto 0;  padding-top:50px; text-align:center; line-height:50px; align:center;}
+table tr{ position:relative; margin:auto 0; text-align:center; background-color:#003964; border: 2px solid red; color:white;
+				align:center;}
+table tr td{ position:relative; magrin:auto 0; text-align:center; }
+
+
+.submit{ align:center;
+  background-color: #003964; border: 4px solid #ed1a3b;  color: white;  padding: 15px 30px;  text-align: center;
+  border-radius:30px;
+  font-size: 16px;  margin: 4px 2px;  cursor: pointer;}
+  .insert{align:right;}
